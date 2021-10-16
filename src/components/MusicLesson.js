@@ -7,7 +7,7 @@ export default function MusicLesson() {
         <div className="text-center">
           <h2 className="section-heading text-uppercase">Music Lessons</h2>
           <h3 className="section-subheading text-muted">
-            Lorem ipsum dolor sit amet consectetur.
+            ABRSM | Trinity | Custom made syllabus to meet our student needs
           </h3>
         </div>
         <div className="row">

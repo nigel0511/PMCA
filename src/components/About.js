@@ -14,7 +14,7 @@ export default function About() {
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                <i className="fas fa-music fa-stack-1x fa-inverse"></i>
 
               </span>
               <h4 className="my-3">We make music lesson fun!</h4>
@@ -26,7 +26,7 @@ export default function About() {
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                <i className="fas fa-drum fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="my-3">All of our teachers are highly qualified</h4>
               <p className="text-muted">
@@ -39,7 +39,7 @@ export default function About() {
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
                 <i className="fas fa-circle fa-stack-2x text-primary"></i>
-                <i className="fas fa-lock fa-stack-1x fa-inverse"></i>
+                <i className="fas fa-guitar fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="my-3">Track Record of Success</h4>
               <p className="text-muted">
