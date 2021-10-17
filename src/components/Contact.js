@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="page-section" id="contact">
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase">Contact Us</h2>
+          <h2 className="section-heading text-uppercase" style={{color:"white"}}>Contact Us</h2>
           <h3 className="section-subheading text-muted">
             Book your free trial lesson today!
           </h3>
