@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
@@ -9,6 +14,7 @@ import Marco from "./components/teacheProfile/Marco";
 import Cheng from "./components/teacheProfile/Cheng";
 import Alex from "./components/teacheProfile/Alex";
 import Felicia from "./components/teacheProfile/Felicia";
+import StringsClass from "./components/musicLessons/StringsClass";
 import Home from "./components/Home";
 // import MasterHead from "./components/MasterHead";
 // import About from "./components/About";
@@ -24,6 +30,8 @@ function App() {
         <div className="App">
           <Nav></Nav>
           <Switch>
+            <Route path="/strings" component={StringsClass}></Route>
+
             <Route path="/dandan" component={Dandan}></Route>
             <Route path="/kong" component={Kong}></Route>
             <Route path="/julian" component={Julian}></Route>
@@ -32,8 +40,8 @@ function App() {
             <Route path="/alex" component={Alex}></Route>
             <Route path="/felicia" component={Felicia}></Route>
             <Route path="/home" component={Home}></Route>
-            <Route render={() => <Redirect to="/home" />} />
 
+            <Route render={() => <Redirect to="/home" />} />
           </Switch>
 
           <Footer />

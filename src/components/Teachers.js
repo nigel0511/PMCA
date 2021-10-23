@@ -107,7 +107,7 @@ export default function Teachers() {
             </div>
           </Link>
         </div>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-8 mx-auto text-center">
             <p className="large text-muted">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
@@ -115,7 +115,7 @@ export default function Teachers() {
               corporis ea, alias ut unde.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

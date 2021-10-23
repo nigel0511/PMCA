@@ -111,7 +111,15 @@ export default class SimpleSlider extends Component {
                   />
                 </h3>
               </div> 
-
+              <div>
+                <h3>
+                  <img
+                    className="img-fluid"
+                    src="../assets/img/gallery/11.jpeg"
+                    alt="Masterclass by Singapore Symphony Orchestra associate concertmaster Kong Zaho Hui 2"
+                  />
+                </h3>
+              </div> 
             </Slider>
           </div>
         </div>

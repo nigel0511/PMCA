@@ -1,12 +1,11 @@
 import React from "react";
-// import MyGallery from "./MyGallery"
 import MasterHead from "./MasterHead";
 import About from "./About";
 import MyGallery from "./MyGallery";
 import MusicLesson from "./MusicLesson"; 
 import Teachers from "./Teachers";
 import Contact from "./Contact";
-import Footer from "./Footer";
+import WhyLearnMusic from './WhyLearnMusic'
 
 
 export default function Home() {
@@ -15,6 +14,7 @@ export default function Home() {
       <div>
           {/* <Nav /> */}
           <MasterHead />
+          <WhyLearnMusic/>
           <About />
           <MyGallery />
           <MusicLesson />

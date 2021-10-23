@@ -2,12 +2,12 @@ import React from "react";
 
 export default function MusicLesson() {
   return (
-    <section className="page-section bg-light" id="musicLessons">
+    <section className="page-section bg-light musicLesson-section" id="musicLessons">
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">Music Lessons</h2>
           <h3 className="section-subheading text-muted">
-            ABRSM | Trinity | Custom made syllabus to meet our student needs
+            ABRSM | Trinity College London
           </h3>
         </div>
         <div className="row">
@@ -19,15 +19,11 @@ export default function MusicLesson() {
                 data-bs-toggle="modal"
                 href="#portfolioModal1"
               >
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
+
                 <div className="img-musicLesson">
                 <img
                   className="img-fluid"
-                  src="assets/img/musicLessons/violinClass.png"
+                  src="assets/img/musicLessons/violinLesson.jpg"
                   alt="Violin Lesson"
                 />
                 </div>
@@ -48,15 +44,11 @@ export default function MusicLesson() {
                 data-bs-toggle="modal"
                 href="#portfolioModal2"
               >
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
+
                 <div className="img-musicLesson">
                 <img
                   className="img-fluid"
-                  src="assets/img/musicLessons/pianoClass.png"
+                  src="assets/img/musicLessons/pianoLesson.jpg"
                   alt="Piano Lesson"
                 />
 
@@ -78,22 +70,18 @@ export default function MusicLesson() {
                 data-bs-toggle="modal"
                 href="#portfolioModal3"
               >
-                <div className="portfolio-hover">
-                  <div className="portfolio-hover-content">
-                    <i className="fas fa-plus fa-3x"></i>
-                  </div>
-                </div>
+
                 <div className="img-musicLesson">
                 <img
                   className="img-fluid"
-                  src="assets/img/musicLessons/guitarClass.png"
+                  src="assets/img/musicLessons/guitarLesson.jpg"
                   alt="Guitar Lesson"
                 />
 
                 </div>
               </a>
               <div className="portfolio-caption">
-                <div className="portfolio-caption-heading">Guitar</div>
+                <div className="portfolio-caption-heading">Guitar | Ukulele</div>
                 <div className="portfolio-caption-subheading text-muted">
                   Classical | Pop | Electric
                 </div>

@@ -22,22 +22,39 @@ export default function Marco() {
                 GUITAR | UKULELE
               </h4>
               <p>
-                Zhang Lei (also known as Marco Zhang Yao Tian), who formerly
-                sojourned in Japan for two years, is a music producer,
-                singer-songwriter, and guitar player. He expresses his musical
-                taste through various cultural collaborations and enjoys
-                travelling and learning other musical cultures.
+                Former Sojourner in Japan for 2 years, Music Producer, Singer-
+                songwriter, Guitar Artist and Lecturer, Singapore Raffles Music
+                College.
+              </p>
+
+              <p>
+                Marco expresses his musical taste through various cultural
+                collaborations and enjoys travelling and learning other musical
+                cultures. He has participated in projects with GIMA Band
+                supported by National Arts Council like “River of Harmony” and
+                “New Journey” in 2021 and 2020 respectively.
               </p>
               <p>
-                He is the Guitarist and Vocalist of GIMA band, which is the
-                first Mongolian Morin Khuur and Guitar fusion band in South East
-                Asia. GIMA blends ancient folk cultures with a modern style and
-                creates new soundscapes with creative arrangements to interpret
-                World Music. Marco and his band partner Jing – the prolific
-                performer of the Mongolian Morin Khuur – launched the debut
-                album “Mongolian Fusion” in 2017. The album has been crowned
-                Number 1 and 2 respectively on the iTunes World Genre lists in
-                Singapore and Spain.
+                He and his friends represented Singapore to participate in
+                Chengdu International Sister Cities Youth Music Festival and
+                Russia Virtual Culture Marathon in 2020. He is the Guitarist and
+                singer of the Crescent Muse Band for the second season of the
+                “Guo Yue Da Dian”of Guangdong TV in 2019.
+              </p>
+              <p>
+                He is the leading representative of the younger generation who
+                compose and perform "Morden Nanyang Poem and Music". Marco has
+                released his unique world music single “Mount Fuji” on all major
+                digital platforms in 2018. He is the Guitarist and Vocalist of
+                GIMA band, which is the first Mongolian Morin Khuur and Guitar
+                fusion band in South East Asia. GIMA blends ancient folk
+                cultures with a modern style and creates new soundscapes with
+                creative arrangements to interpret World Music. Marco and his
+                band partner Jing, the prolific performer of the Mongolian Morin
+                Khuur, launched the debut album "Mongolian Fusion". This album
+                has been crowned No.1 and No.2 respectively on the list of
+                iTunes“World Genre, Singapore and Spain in 2017. He has also
+                contributed to soundtracks of a few local movies in Singapore.
               </p>
             </div>
           </div>

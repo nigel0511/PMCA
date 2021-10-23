@@ -3,7 +3,7 @@ import { NavHashLink } from "react-router-hash-link";
 
 export default function About() {
   return (
-    <section className="page-section" id="about" name="about">
+    <section className="page-section about-section" id="about" name="about">
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">
@@ -32,7 +32,7 @@ export default function About() {
             </span>
             <h4 className="my-3">All of our teachers are highly qualified</h4>
             <p className="text-muted">
-              Our teachers had practical experience performing with professional
+              Our teachers had practical experience performing with national
               orchestras and music groups after gaining bachelor/master degree
               from music schools. You might have already met them if you are
               regular concert-goer!

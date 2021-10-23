@@ -6,17 +6,28 @@ export default function Contact() {
     <section className="page-section" id="contact">
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase" style={{color:"white"}}>Contact Us</h2>
-          <h3 className="section-subheading text-muted">
+          <h2
+            className="section-heading text-uppercase"
+            style={{ color: "white" }}
+          >
+            Contact Us
+          </h2>
+          <h3 className="section-subheading" style={{ color: "white" }}>
             Book your free trial lesson today!
           </h3>
         </div>
 
         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
           <div className="row align-items-stretch mb-5">
-          <div className="col-md-6">
-              <div className="form-group">
-                <SimpleMap></SimpleMap>
+            <div className="col-md-6">
+              <div className="map-container">
+                {/* <SimpleMap></SimpleMap> */}
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7366094211216!2d103.7367165148246!3d1.334217061996958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1005a39a1d09%3A0x99bb8c03f244ee9c!2sPhilharmonic%20Musicademy%EF%BD%9Cmusic%20school%20%40%20Jurong%20East!5e0!3m2!1szh-TW!2ssg!4v1634898385754!5m2!1szh-TW!2ssg"
+                  className="responsive-iframe"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
               </div>
             </div>
             <div className="col-md-6">
@@ -90,7 +101,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
           </div>
           {/* <!-- Submit success message-->
                     <!---->

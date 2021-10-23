@@ -63,27 +63,39 @@ export default function Nav() {
                 </a>
               </HashLink>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="nav-link" href="#">
-                  Strings
-                  <div style={{ fontSize: "0.5rem" }}>
-                    Violin | Viola | Cello | Bass
-                  </div>
-                </a>
-                <a class="nav-link" href="#">
-                  Piano
-                  <div style={{ fontSize: "0.5rem" }}>
-                    Classical | Pop
-                  </div>
-                </a>
-                <a class="nav-link" href="#">
-                  Guitar | Ukulele
-                  <div style={{ fontSize: "0.5rem" }}>
-                    Classical | Pop | Electric
-                  </div>
-                </a>
-                <a class="nav-link" href="#">
-                  Ruan 阮
-                </a>
+                <Link style={{ textDecoration: "none" }}>
+                  <a class="nav-link" href="#">
+                    Strings
+                    <div style={{ fontSize: "0.5rem" }}>
+                      Violin | Viola | Cello | Bass
+                    </div>
+                  </a>
+                </Link>
+                <Link style={{ textDecoration: "none" }}>
+                  <a class="nav-link" href="#">
+                    Piano
+                    <div style={{ fontSize: "0.5rem" }}>Classical | Pop</div>
+                  </a>
+                </Link>
+                <Link style={{ textDecoration: "none" }}>
+                  <a class="nav-link" href="#">
+                    Guitar | Ukulele
+                    <div style={{ fontSize: "0.5rem" }}>
+                      Classical | Pop | Electric
+                    </div>
+                  </a>
+                </Link>
+                <Link style={{ textDecoration: "none" }}>  
+                  <a class="nav-link" href="#">
+                    Ruan 阮
+                  </a>
+                </Link>
+                <Link style={{ textDecoration: "none" }}>
+                  <a class="nav-link" href="#">
+                    Music Theory
+                    <div style={{ fontSize: "0.5rem" }}>ABRSM</div>
+                  </a>
+                </Link>
               </div>
             </li>
             <li class="nav-item dropdown">
