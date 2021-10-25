@@ -63,7 +63,7 @@ export default function Nav() {
                 </a>
               </HashLink>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <Link style={{ textDecoration: "none" }}>
+                <Link style={{ textDecoration: "none" }} to='/strings'>
                   <a class="nav-link" href="#">
                     Strings
                     <div style={{ fontSize: "0.5rem" }}>
@@ -71,13 +71,13 @@ export default function Nav() {
                     </div>
                   </a>
                 </Link>
-                <Link style={{ textDecoration: "none" }}>
+                <Link style={{ textDecoration: "none" }} to='/piano'>
                   <a class="nav-link" href="#">
                     Piano
                     <div style={{ fontSize: "0.5rem" }}>Classical | Pop</div>
                   </a>
                 </Link>
-                <Link style={{ textDecoration: "none" }}>
+                <Link style={{ textDecoration: "none" }} to='/guitar'>
                   <a class="nav-link" href="#">
                     Guitar | Ukulele
                     <div style={{ fontSize: "0.5rem" }}>
@@ -85,7 +85,7 @@ export default function Nav() {
                     </div>
                   </a>
                 </Link>
-                <Link style={{ textDecoration: "none" }}>  
+                <Link style={{ textDecoration: "none" }} to='/ruan'>  
                   <a class="nav-link" href="#">
                     Ruan 阮
                   </a>

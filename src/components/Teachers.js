@@ -20,7 +20,7 @@ export default function Teachers() {
                 <img
                   className="mx-auto rounded-circle"
                   src="assets/img/team/AlexLiu.jpg"
-                  alt="..."
+                  alt="teacher Alex Liu"
                 />
                 <h4>Alex Liu</h4>
                 <p className="text-muted">Violin | Viola</p>
@@ -33,7 +33,7 @@ export default function Teachers() {
                 <img
                   className="mx-auto rounded-circle"
                   src="assets/img/team/wang.jpg"
-                  alt="..."
+                  alt="teacher Wang Dandan"
                 />
                 <h4>Wang Dandan</h4>
                 <p className="text-muted">Violin | Viola</p>
@@ -46,7 +46,7 @@ export default function Teachers() {
                 <img
                   className="mx-auto rounded-circle"
                   src="assets/img/team/kong.jpeg"
-                  alt="..."
+                  alt="teacher Kong Xian Long"
                 />
                 <h4>Kong Xian Long</h4>
                 <p className="text-muted">Violin</p>
@@ -58,8 +58,8 @@ export default function Teachers() {
               <div className="team-member">
                 <img
                   className="mx-auto rounded-circle"
-                  src="assets/img/team/cheng.jpeg"
-                  alt="..."
+                  src="assets/img/team/cheng1.jpeg"
+                  alt="teacher Cheng Tzu Ting"
                 />
                 <h4>Cheng Tzu Ting</h4>
                 <p className="text-muted">Piano | Music Theory | Aural | 阮</p>
@@ -73,7 +73,7 @@ export default function Teachers() {
                 <img
                   className="mx-auto rounded-circle"
                   src="assets/img/team/zhang.jpeg"
-                  alt="..."
+                  alt="teacher Marco Zhang Yao Tian"
                 />
                 <h4>Marco Zhang Yao Tian</h4>
                 <p className="text-muted">Guitar | Ukulele | Pop Song</p>
@@ -86,7 +86,7 @@ export default function Teachers() {
                 <img
                   className="mx-auto rounded-circle"
                   src="assets/img/team/julian.jpg"
-                  alt="..."
+                  alt="teacher Julian Li"
                 />
                 <h4>Julian Li</h4>
                 <p className="text-muted">Double Bass</p>
@@ -100,7 +100,7 @@ export default function Teachers() {
               <img
                 className="mx-auto rounded-circle"
                 src="assets/img/team/felicia.jpeg"
-                alt="..."
+                alt="teacher Felicia Ng"
               />
               <h4>Felicia Ng</h4>
               <p className="text-muted">Piano</p>

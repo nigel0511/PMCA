@@ -11584,7 +11584,7 @@ header.masthead .masthead-heading {
   width: 100%;
   /* height: 100%; */
   padding-top: 80%;
-  margin-bottom: 1.5rem
+  margin-bottom: 1.5rem;
 }
 
 .responsive-iframe {
@@ -11778,6 +11778,28 @@ header.masthead .masthead-heading {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+
+.team-member-small img{
+  display: block;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.teacher-name-small {
+  margin-bottom: 0rem;
+  text-align: center;
+  font-size: small;
+}
+
+.teacher-instrument-small {
+  font-size: small;
+  text-align: center
+}
+
 
 .img-brand {
   height: 2.75rem;

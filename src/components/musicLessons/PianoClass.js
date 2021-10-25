@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function StringsClass() {
+export default function PianoClass() {
   return (
     <div>
       <section className="page section teacher-profile">
@@ -11,26 +11,28 @@ export default function StringsClass() {
               <div style={{ margin: "10px" }}>
                 <img
                   className="teacher-pic img-fluid"
-                  src="assets/img/musicLessons/violinLesson.jpg"
+                  src="assets/img/musicLessons/pianoLesson.jpg"
                 ></img>
               </div>
             </div>
             <div className="col-lg-6 teacher-bio">
               <h1 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                STRINGS CLASSES
+                PIANO CLASS
               </h1>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                VIOLIN | VIOLA | CELLO | DOUBLE BASS
+                CLASSICAL | POP
               </h3>
+
               <p>
-                Strings instruments are the backbone in western classical music,
-                it's richness of tone and expressive nature are the reasons why
-                all classical music master composers like{" "}
+                Piano not only had a very important place in western classical
+                music, but it's important role in other musical genre like jazz,
+                blues, rock and folk music. Almost all great composers, for
+                example{" "}
                 <b style={{ color: "#E76F51" }}>
-                  Bach, Haydn, Beethoven, Bramhs
+                  Bach, Mozart, Beethoven, Chopin
                 </b>{" "}
-                and many more, used strings instruments to craft their
-                masterpieces.
+                and many more, are piano virtuoso themselves, as piano skills
+                are crucial in understanding harmony and musical forms.
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
                 SYLLABUS
@@ -51,17 +53,20 @@ export default function StringsClass() {
                 , which are essential in musical training. Many MOE schools in
                 Singapore also look at the results of ABRSM exam as a reference
                 upon admission (
-                <a href="https://www.moe.gov.sg/secondary/dsa" style={{ color: "black" }}>
+                <a
+                  href="https://www.moe.gov.sg/secondary/dsa"
+                  style={{ color: "black" }}
+                >
                   Direct School Admission - Sec
                 </a>
                 ).
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>LESSON</h3>
               <p>
-                Strings instruments are suitable for children to start learning
-                from <b style={{ color: "#E76F51" }}>age 5</b>, standard size
-                instruments are too big for young child, age appropriated
-                down-side instruments are recommended.
+                Piano lesson are suitable for children from{" "}
+                <b style={{ color: "#E76F51" }}>age 5</b>, famous pianist like
+                Yuja Wang and Lang Lang both started learning piano around the
+                age of 5!
               </p>
               <table class="table">
                 <thead>
@@ -87,72 +92,38 @@ export default function StringsClass() {
                 </h3>
                 <div className="col">
                   <Link
-                    to="/alex"
+                    to="/cheng"
                     style={{ color: "black", textDecoration: "none" }}
                   >
                     <div className="team-member-small">
                       <img
                         className="mx-auto rounded-circle"
-                        src="assets/img/team/AlexLiu.jpg"
+                        src="assets/img/team/cheng.jpeg"
                         alt="..."
                       />
-                      <p className="teacher-name-small">Alex Liu</p>
+                      <p className="teacher-name-small">Cheng Tzu Ting</p>
+
                       <p className="text-muted teacher-instrument-small">
-                        Violin | Viola
+                        Piano | Music Theory | Aural | 阮
                       </p>
                     </div>
                   </Link>
                 </div>
                 <div className="col">
                   <Link
-                    to="dandan"
+                    to="/felicia"
                     style={{ color: "black", textDecoration: "none" }}
                   >
                     <div className="team-member-small">
                       <img
                         className="mx-auto rounded-circle"
-                        src="assets/img/team/wang.jpg"
+                        src="assets/img/team/felicia.jpeg"
                         alt="..."
                       />
-                      <p className="teacher-name-small">Wang Dandan</p>
+                      <p className="teacher-name-small">Felicia Ng</p>
+
                       <p className="text-muted teacher-instrument-small">
-                        Violin | Viola
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="col">
-                  <Link
-                    to="kong"
-                    style={{ color: "black", textDecoration: "none" }}
-                  >
-                    <div className="team-member-small">
-                      <img
-                        className="mx-auto rounded-circle"
-                        src="assets/img/team/kong.jpeg"
-                        alt="..."
-                      />
-                      <p className="teacher-name-small">Kong Xian Long</p>
-                      <p className="text-muted teacher-instrument-small">
-                        Violin
-                      </p>
-                    </div>
-                  </Link>
-                </div>
-                <div className="col">
-                  <Link
-                    to="julian"
-                    style={{ color: "black", textDecoration: "none" }}
-                  >
-                    <div className="team-member-small">
-                      <img
-                        className="mx-auto rounded-circle"
-                        src="assets/img/team/julian.jpg"
-                        alt="..."
-                      />
-                      <p className="teacher-name-small">Julian Li</p>
-                      <p className="text-muted teacher-instrument-small">
-                        Double Bass
+                        Piano
                       </p>
                     </div>
                   </Link>
