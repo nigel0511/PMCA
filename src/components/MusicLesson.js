@@ -20,7 +20,7 @@ export default function MusicLesson() {
             <div className="portfolio-item">
               <a className="portfolio-link">
                 <div className="img-musicLesson">
-                  <Link to="/strings">
+                  <Link to="/string">
                     <img
                       className="img-fluid"
                       src="assets/img/musicLessons/violinLesson.jpg"
@@ -30,7 +30,7 @@ export default function MusicLesson() {
                 </div>
               </a>
               <div className="portfolio-caption">
-                <div className="portfolio-caption-heading">Strings</div>
+                <div className="portfolio-caption-heading">String</div>
                 <div className="portfolio-caption-subheading text-muted">
                   Violin | Viola | Cello | Bass
                 </div>

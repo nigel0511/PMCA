@@ -14,10 +14,11 @@ import Marco from "./components/teacheProfile/Marco";
 import Cheng from "./components/teacheProfile/Cheng";
 import Alex from "./components/teacheProfile/Alex";
 import Felicia from "./components/teacheProfile/Felicia";
-import StringsClass from "./components/musicLessons/StringsClass";
+import StringClass from "./components/musicLessons/StringClass";
 import PianoClass from './components/musicLessons/PianoClass'
 import GuitarClass from './components/musicLessons/GuitarClass'
 import RuanClass from './components/musicLessons/RuanClass'
+import TheoryClass from './components/musicLessons/TheoryClass'
 import Home from "./components/Home";
 // import MasterHead from "./components/MasterHead";
 // import About from "./components/About";
@@ -33,10 +34,12 @@ function App() {
         <div className="App">
           <Nav></Nav>
           <Switch>
-            <Route path="/strings" component={StringsClass}></Route>
+            <Route path="/string" component={StringClass}></Route>
             <Route path="/piano" component={PianoClass}></Route>
             <Route path="/guitar" component={GuitarClass}></Route>
             <Route path="/ruan" component={RuanClass}></Route>
+            <Route path="/theory" component={TheoryClass}></Route>
+
 
             <Route path="/dandan" component={Dandan}></Route>
             <Route path="/kong" component={Kong}></Route>

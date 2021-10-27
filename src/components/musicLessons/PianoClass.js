@@ -25,9 +25,9 @@ export default function PianoClass() {
 
               <p>
                 Piano not only had a very important place in western classical
-                music, but it's important role in other musical genre like jazz,
-                blues, rock and folk music. Almost all great composers, for
-                example{" "}
+                music, but it's important role in other musical genres like
+                jazz, blues, rock and folk music. Almost all great composers,
+                for example{" "}
                 <b style={{ color: "#E76F51" }}>
                   Bach, Mozart, Beethoven, Chopin
                 </b>{" "}
@@ -46,13 +46,13 @@ export default function PianoClass() {
                   <b style={{ color: "black" }}>Trinity College London</b>
                 </a>{" "}
                 are the world most recognized association for classical music
-                cirriculum, it includes topics like{" "}
+                curriculum, it includes topics like{" "}
                 <b style={{ color: "#E76F51" }}>
                   practical performance, aural and music theory
                 </b>
                 , which are essential in musical training. Many MOE schools in
-                Singapore also look at the results of ABRSM exam as a reference
-                upon admission (
+                Singapore also look at the results of the ABRSM exam as a
+                reference upon admission (
                 <a
                   href="https://www.moe.gov.sg/secondary/dsa"
                   style={{ color: "black" }}
@@ -63,8 +63,8 @@ export default function PianoClass() {
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>LESSON</h3>
               <p>
-                Piano lesson are suitable for children from{" "}
-                <b style={{ color: "#E76F51" }}>age 5</b>, famous pianist like
+                Piano lessons are suitable for children from{" "}
+                <b style={{ color: "#E76F51" }}>age 5</b>, famous pianists like
                 Yuja Wang and Lang Lang both started learning piano around the
                 age of 5!
               </p>
@@ -88,7 +88,7 @@ export default function PianoClass() {
             <div className="col-lg-2">
               <div className="row">
                 <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                  STRINGS TEACHERS
+                  PIANO TEACHERS
                 </h3>
                 <div className="col">
                   <Link
@@ -123,7 +123,7 @@ export default function PianoClass() {
                       <p className="teacher-name-small">Felicia Ng</p>
 
                       <p className="text-muted teacher-instrument-small">
-                        Piano
+                        Piano | Music Theory
                       </p>
                     </div>
                   </Link>

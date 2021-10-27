@@ -4,6 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer py-4">
       <div className="container">
+
         <div className="row align-items-center">
           <div className="col-lg-4 text-lg-start">
             Copyright &copy; Philharmonic Musicadamy 2021
@@ -15,17 +16,18 @@ export default function Footer() {
             >
               <i className="fab fa-google"></i>
             </a>
-            <a className="btn btn-dark btn-social mx-2" href="https://www.facebook.com/pmcasg">
+            <a
+              className="btn btn-dark btn-social mx-2"
+              href="https://www.facebook.com/pmcasg"
+            >
               <i className="fab fa-facebook-f"></i>
             </a>
           </div>
           <div className="col-lg-4 text-lg-end">
-            <a className="link-dark text-decoration-none me-3" >
+            <a className="link-dark text-decoration-none me-3">
               Privacy Policy
             </a>
-            <a className="link-dark text-decoration-none" >
-              Terms of Use
-            </a>
+            <a className="link-dark text-decoration-none">Terms of Use</a>
           </div>
         </div>
       </div>

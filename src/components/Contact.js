@@ -1,7 +1,34 @@
-import React from "react";
-import SimpleMap from "./Map";
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
+  // function onSubmit(token) {
+  //   document.getElementById("demo-form").submit();
+  // }
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cbtxbh2",
+        "template_gg6vboq",
+        form.current,
+        "user_Gaxxx2mKWxHTH99KMTv5T"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section className="page-section" id="contact">
       <div className="container">
@@ -17,9 +44,29 @@ export default function Contact() {
           </h3>
         </div>
 
-        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+        <form ref={form} id="contactForm" onSubmit={sendEmail}>
           <div className="row align-items-stretch mb-5">
-            <div className="col-md-6">
+            <div className="col-md-2 contact-text">
+              <p>
+                <b style={{ color: "#afafaf" }}>Address: </b>#03-307K, 134
+                Jurong Gateway Rd, Singapore 600134
+              </p>
+              <p>
+                <b style={{ color: "#afafaf" }}>Tel: </b>6425 5998
+              </p>
+              <p>
+                <b style={{ color: "#afafaf" }}>WhatsApp: </b>8952 0605
+              </p>
+              <p>
+                <b style={{ color: "#afafaf" }}>Operating Hours: </b>
+                <br />
+                Mon: close <br />
+                Tue - Fri: 2pm - 7pm <br />
+                Sat - Sun: 9am - 7pm <br />
+              </p>
+              <p></p>
+            </div>
+            <div className="col-md-5">
               <div className="map-container">
                 {/* <SimpleMap></SimpleMap> */}
                 <iframe
@@ -30,7 +77,7 @@ export default function Contact() {
                 ></iframe>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <div className="form-group">
                 {/* <!-- Name input--> */}
                 <input
@@ -39,6 +86,7 @@ export default function Contact() {
                   type="text"
                   placeholder="Your Name *"
                   data-sb-validations="required"
+                  name="contactName"
                 />
                 <div
                   className="invalid-feedback"
@@ -55,6 +103,7 @@ export default function Contact() {
                   type="email"
                   placeholder="Your Email *"
                   data-sb-validations="required,email"
+                  name="email"
                 />
                 <div
                   className="invalid-feedback"
@@ -77,6 +126,7 @@ export default function Contact() {
                   type="tel"
                   placeholder="Your Phone *"
                   data-sb-validations="required"
+                  name="phoneNumber"
                 />
                 <div
                   className="invalid-feedback"
@@ -92,6 +142,7 @@ export default function Contact() {
                   id="message"
                   placeholder="Your Message *"
                   data-sb-validations="required"
+                  name="message"
                 ></textarea>
                 <div
                   className="invalid-feedback"
@@ -126,9 +177,15 @@ export default function Contact() {
             </div>
           </div>
           {/* <!-- Submit Button--> */}
+
+          {/* <button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key"   
+        data-callback=onSubmit' 
+        data-action='submit'>Submit</button> */}
+
           <div className="text-center">
             <button
-              className="btn btn-primary btn-xl text-uppercase disabled"
+              className="btn btn-primary btn-xl text-uppercase"
               id="submitButton"
               type="submit"
             >

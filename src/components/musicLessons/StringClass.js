@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function StringsClass() {
+export default function StringClass() {
   return (
     <div>
       <section className="page section teacher-profile">
@@ -17,19 +17,19 @@ export default function StringsClass() {
             </div>
             <div className="col-lg-6 teacher-bio">
               <h1 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                STRINGS CLASSES
+                STRING CLASSES
               </h1>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
                 VIOLIN | VIOLA | CELLO | DOUBLE BASS
               </h3>
               <p>
-                Strings instruments are the backbone in western classical music,
+                String instruments are the backbones in western classical music,
                 it's richness of tone and expressive nature are the reasons why
                 all classical music master composers like{" "}
                 <b style={{ color: "#E76F51" }}>
                   Bach, Haydn, Beethoven, Bramhs
                 </b>{" "}
-                and many more, used strings instruments to craft their
+                and many more, used string instruments to craft their
                 masterpieces.
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
@@ -44,12 +44,12 @@ export default function StringsClass() {
                   <b style={{ color: "black" }}>Trinity College London</b>
                 </a>{" "}
                 are the world most recognized association for classical music
-                cirriculum, it includes topics like{" "}
+                curriculum, it includes topics like{" "}
                 <b style={{ color: "#E76F51" }}>
                   practical performance, aural and music theory
                 </b>
                 , which are essential in musical training. Many MOE schools in
-                Singapore also look at the results of ABRSM exam as a reference
+                Singapore also look at the results of the ABRSM exam as a reference
                 upon admission (
                 <a href="https://www.moe.gov.sg/secondary/dsa" style={{ color: "black" }}>
                   Direct School Admission - Sec
@@ -58,9 +58,9 @@ export default function StringsClass() {
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>LESSON</h3>
               <p>
-                Strings instruments are suitable for children to start learning
+                String instruments are suitable for children to start learning
                 from <b style={{ color: "#E76F51" }}>age 5</b>, standard size
-                instruments are too big for young child, age appropriated
+                instruments are too big for young children, age appropriate
                 down-side instruments are recommended.
               </p>
               <table class="table">
@@ -83,7 +83,7 @@ export default function StringsClass() {
             <div className="col-lg-2">
               <div className="row">
                 <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                  STRINGS TEACHERS
+                  STRING TEACHERS
                 </h3>
                 <div className="col">
                   <Link

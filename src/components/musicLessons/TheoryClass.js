@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function GuitarClass() {
+export default function TheoryClass() {
   return (
     <div>
       <section className="page section teacher-profile">
@@ -11,26 +11,20 @@ export default function GuitarClass() {
               <div style={{ margin: "10px" }}>
                 <img
                   className="teacher-pic img-fluid"
-                  src="assets/img/musicLessons/guitarLesson.jpg"
+                  src="assets/img/musicLessons/theory.jpeg"
                 ></img>
               </div>
             </div>
             <div className="col-lg-6 teacher-bio">
               <h1 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                GUITAR CLASS
+                MUSIC THEORY CLASS
               </h1>
-              <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                CLASSICAL | POP | ELECTRIC | UKULELE
-              </h3>
-
               <p>
-                Guitar holds a very important role in our popular culture, from
-                Beatles's 'Hey Jude' to Toto's 'Africa'. It holds an iconic
-                status in modern pop music. But even before that, guitar already
-                had a long history of involvement in the art of music from the
-                of Renaissance. So either you want to enjoy playing your
-                favorite pop songs or digging into the long history of the art
-                of guitar, you should pick up your guitar today!
+                Music Theory is the knowledge of melody, harmony, forms and
+                structures and composition. Basic music theory will help
+                students understand the theory behind the music they play and
+                communicate in musical terms in lessons or playing in an
+                ensemble.
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
                 SYLLABUS
@@ -40,24 +34,20 @@ export default function GuitarClass() {
                   <b style={{ color: "black" }}>ABRSM</b>
                 </a>{" "}
                 - Associated Board of the Royal Schools of Music and{" "}
-                <a href="https://www.trinityrock.com/">
-                  <b style={{ color: "black" }}>
-                    Trinity College London | Rock and Pop
-                  </b>
+                <a href="https://www.trinitycollege.com/local-trinity/singapore">
+                  <b style={{ color: "black" }}>Trinity College London</b>
                 </a>{" "}
-                are the world most recognized association for both classical and
-                pop music curriculum, it includes{" "}
+                are the world's most recognized association for classical music
+                curriculum.{" "}
                 <b style={{ color: "#E76F51" }}>
-                  practical performance, aural, improvisation and music theory
+                  Passing ABRSM theory grade 5 is required for grade 6 - 8
+                  practical exams.
                 </b>
-                , which are essential in musical training.
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>LESSON</h3>
               <p>
-                Guitar lessons are suitable for children from{" "}
-                <b style={{ color: "#E76F51" }}>age 5</b>, younger children can
-                start with Ukulele which is smaller, as their hands are usually
-                not big enough to play standard size guitar.
+                Music theory lesson are suitable for children from{" "}
+                <b style={{ color: "#E76F51" }}>age 6</b>.
               </p>
               <table class="table">
                 <thead>
@@ -79,23 +69,42 @@ export default function GuitarClass() {
             <div className="col-lg-2">
               <div className="row">
                 <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
-                  GUITAR TEACHER
+                  MUSIC THEORY TEACHER
                 </h3>
                 <div className="col">
                   <Link
-                    to="/marco"
+                    to="/cheng"
                     style={{ color: "black", textDecoration: "none" }}
                   >
                     <div className="team-member-small">
                       <img
                         className="mx-auto rounded-circle"
-                        src="assets/img/team/zhang.jpeg"
+                        src="assets/img/team/cheng1.jpeg"
                         alt="..."
                       />
-                      <p className="teacher-name-small">Marco Zhang Yao Tian</p>
+                      <p className="teacher-name-small">Cheng Tzu Ting</p>
 
                       <p className="text-muted teacher-instrument-small">
-                        Guitar | Ukulele | Pop Song
+                        Piano | Music Theory | Aural | 阮
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+                <div className="col">
+                  <Link
+                    to="/felicia"
+                    style={{ color: "black", textDecoration: "none" }}
+                  >
+                    <div className="team-member-small">
+                      <img
+                        className="mx-auto rounded-circle"
+                        src="assets/img/team/felicia.jpeg"
+                        alt="..."
+                      />
+                      <p className="teacher-name-small">Felicia Ng</p>
+
+                      <p className="text-muted teacher-instrument-small">
+                        Piano | Music Theory
                       </p>
                     </div>
                   </Link>

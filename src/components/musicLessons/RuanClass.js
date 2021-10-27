@@ -24,8 +24,8 @@ export default function RuanClass() {
               </h3>
 
               <p>
-                Ruan is a Chinese plucked string instruments, it's poetic,
-                gentle and tranquil sound quality had made it a standard
+                Ruan is a Chinese plucked string instrument, it's poetic,
+                gentle and tranquil sound quality has made it a standard
                 instrument in Chinese Orchestra.
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>
@@ -38,13 +38,13 @@ export default function RuanClass() {
                     OF MUSIC, BEIJING (CCOM)
                   </b>
                 </a>{" "}
-                is the most recognized association for Chinese music cirriculum,
+                is the most recognized association for Chinese music curriculum,
                 it includes{" "}
                 <b style={{ color: "#E76F51" }}>
                   technical training and musical style training
                 </b>
                 , which are essential in Chinese musical training. Many MOE
-                schools in Singapore also look at the results of exam as a
+                schools in Singapore also look at the results of exams as a
                 reference upon admission (
                 <a
                   href="https://www.moe.gov.sg/secondary/dsa"
@@ -56,10 +56,10 @@ export default function RuanClass() {
               </p>
               <h3 style={{ margin: "0 0 1.5rem", color: "#264653" }}>LESSON</h3>
               <p>
-                Guitar lesson are suitable for children from{" "}
-                <b style={{ color: "#E76F51" }}>age 5</b>, younger child can
+                Ruan lessons are suitable for children from{" "}
+                <b style={{ color: "#E76F51" }}>age 5</b>, younger children can
                 start with a smaller Ruan, as their hands are usually not big
-                enough to play standard size instrument.
+                enough to play standard size instruments.
               </p>
               <table class="table">
                 <thead>
@@ -85,7 +85,7 @@ export default function RuanClass() {
                 </h3>
                 <div className="col">
                   <Link
-                    to="/marco"
+                    to="/cheng"
                     style={{ color: "black", textDecoration: "none" }}
                   >
                     <div className="team-member-small">
