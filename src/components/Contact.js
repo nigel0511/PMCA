@@ -1,10 +1,14 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
-  // function onSubmit(token) {
-  //   document.getElementById("demo-form").submit();
-  // }
+  const [isDisable, setIsDisable] = useState(true);
+
+  function onChange(value) {
+    console.log("Captcha value:", value);
+    setIsDisable(false);
+  }
 
   const form = useRef();
 
@@ -68,7 +72,6 @@ export default function Contact() {
             </div>
             <div className="col-md-5">
               <div className="map-container">
-                {/* <SimpleMap></SimpleMap> */}
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7366094211216!2d103.7367165148246!3d1.334217061996958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1005a39a1d09%3A0x99bb8c03f244ee9c!2sPhilharmonic%20Musicademy%EF%BD%9Cmusic%20school%20%40%20Jurong%20East!5e0!3m2!1szh-TW!2ssg!4v1634898385754!5m2!1szh-TW!2ssg"
                   className="responsive-iframe"
@@ -143,6 +146,7 @@ export default function Contact() {
                   placeholder="Your Message *"
                   data-sb-validations="required"
                   name="message"
+                  style={{ marginBottom: "1.5rem" }}
                 ></textarea>
                 <div
                   className="invalid-feedback"
@@ -150,6 +154,13 @@ export default function Contact() {
                 >
                   A message is required.
                 </div>
+              </div>
+              <div className="form-group">
+                <ReCAPTCHA
+                  sitekey="6Ldwj_scAAAAAA99cM_15UaL5sq4-dlS8twv_SZg"
+                  onChange={onChange}
+                  onClick={() => setIsDisable(false)}
+                />
               </div>
             </div>
           </div>
@@ -178,16 +189,12 @@ export default function Contact() {
           </div>
           {/* <!-- Submit Button--> */}
 
-          {/* <button class="g-recaptcha" 
-        data-sitekey="reCAPTCHA_site_key"   
-        data-callback=onSubmit' 
-        data-action='submit'>Submit</button> */}
-
           <div className="text-center">
             <button
               className="btn btn-primary btn-xl text-uppercase"
               id="submitButton"
               type="submit"
+              disabled={isDisable}
             >
               Send Message
             </button>

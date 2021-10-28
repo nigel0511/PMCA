@@ -20,12 +20,6 @@ import GuitarClass from './components/musicLessons/GuitarClass'
 import RuanClass from './components/musicLessons/RuanClass'
 import TheoryClass from './components/musicLessons/TheoryClass'
 import Home from "./components/Home";
-// import MasterHead from "./components/MasterHead";
-// import About from "./components/About";
-// import MyGallery from "./components/MyGallery";
-// import MusicLesson from "./components/MusicLesson";
-// import Teachers from "./components/Teachers";
-// import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -39,8 +33,6 @@ function App() {
             <Route path="/guitar" component={GuitarClass}></Route>
             <Route path="/ruan" component={RuanClass}></Route>
             <Route path="/theory" component={TheoryClass}></Route>
-
-
             <Route path="/dandan" component={Dandan}></Route>
             <Route path="/kong" component={Kong}></Route>
             <Route path="/julian" component={Julian}></Route>
@@ -49,10 +41,8 @@ function App() {
             <Route path="/alex" component={Alex}></Route>
             <Route path="/felicia" component={Felicia}></Route>
             <Route path="/home" component={Home}></Route>
-
             <Route render={() => <Redirect to="/home" />} />
           </Switch>
-
           <Footer />
         </div>
       </ScrollToTop>
