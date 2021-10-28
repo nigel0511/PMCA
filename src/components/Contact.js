@@ -17,10 +17,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_cbtxbh2",
-        "template_gg6vboq",
+        process.env.REACT_APP_SERVICE_ID_API_KEY,
+        process.env.REACT_APP_TEMPLATE_ID_API_KEY,
         form.current,
-        "user_Gaxxx2mKWxHTH99KMTv5T"
+        process.env.REACT_APP_USER_ID_API_KEY
       )
       .then(
         (result) => {
@@ -157,7 +157,7 @@ export default function Contact() {
               </div>
               <div className="form-group">
                 <ReCAPTCHA
-                  sitekey="6Ldwj_scAAAAAA99cM_15UaL5sq4-dlS8twv_SZg"
+                  sitekey={process.env.REACT_APP_RECAPTCHA_API_KEY}
                   onChange={onChange}
                   onClick={() => setIsDisable(false)}
                 />
