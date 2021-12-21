@@ -1,5 +1,4 @@
 import React from "react";
-import { NavHashLink } from "react-router-hash-link";
 
 export default function About() {
   return (
@@ -45,8 +44,8 @@ export default function About() {
             </span>
             <h4 className="my-3">Track Record of Success</h4>
             <p className="text-muted">
-              Our student hold seats in National Youth Orchestra, winning
-              international competition, excellent result in ABRSM exams
+              Our student hold seats in <a style={{textDecoration:'none', color:'#6D757D'}} href='https://www.snyo.org.sg/'><b>National Youth Orchestra</b></a>, winning
+              international competition, excellent result in <a style={{textDecoration:'none', color:'#6D757D'}} href='https://sg.abrsm.org/en/'><b>ABRSM</b></a> exams
             </p>
           </div>
         </div>

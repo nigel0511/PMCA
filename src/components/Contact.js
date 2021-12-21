@@ -56,6 +56,9 @@ export default function Contact() {
                 Jurong Gateway Rd, Singapore 600134
               </p>
               <p>
+                <b style={{ color: "#afafaf" }}>Email: </b>enquiry@pmca.com.sg
+              </p>
+              <p>
                 <b style={{ color: "#afafaf" }}>Tel: </b>6425 5998
               </p>
               <p>
@@ -168,7 +171,7 @@ export default function Contact() {
                     <!---->
                     <!-- This is what your users will see when the form-->
                     <!-- has successfully submitted--> */}
-          <div className="d-none" id="submitSuccessMessage">
+          {/* <div className="d-none" id="submitSuccessMessage">
             <div className="text-center text-white mb-3">
               <div className="fw-bolder">Form submission successful!</div>
               To activate this form, sign up at
@@ -177,16 +180,16 @@ export default function Contact() {
                 https://startbootstrap.com/solution/contact-forms
               </a>
             </div>
-          </div>
+          </div> */}
           {/* <!-- Submit error message-->
                     <!---->
                     <!-- This is what your users will see when there is-->
                     <!-- an error submitting the form--> */}
-          <div className="d-none" id="submitErrorMessage">
+          {/* <div className="d-none" id="submitErrorMessage">
             <div className="text-center text-danger mb-3">
               Error sending message!
             </div>
-          </div>
+          </div> */}
           {/* <!-- Submit Button--> */}
 
           <div className="text-center">
